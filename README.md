@@ -1,6 +1,6 @@
 ## Installation
 
-    git clone git@github.com:achyutjhunjhunwala/ng-trello.git
+    git clone git@github.com:achyutjhunjhunwala/aj-trello.git
     cd ng-trello
     npm install
 

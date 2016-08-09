@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "description": "An angular project for Trello like application",
-  "repository": "https://github.com/achyutjhunjhunwala/ng-trello",
+  "repository": "https://github.com/achyutjhunjhunwala/aj-trello",
   "license": "MIT",
   "devDependencies": {
     "bower": "^1.7.7",
