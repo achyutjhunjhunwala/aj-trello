@@ -1,0 +1,18 @@
+<section class="list">
+    <div class="title">
+        List
+    </div>
+    <div class="list-items">
+        <div class="item" ng-repeat="item in data.card track by $index" data-id="{{item.id}}"
+             dnd-draggable="item"
+             dnd-moved="data.card.splice($index, 1)"
+             dnd-effect-allowed="move">
+            <span class="text">{{item.title}}</span>
+            <span class="delete" ng-click="removeItem(item.id, data.card)">X</span>
+        </div>
+    </div>
+    <div class="create-card">
+        <input ng-model="newItem" type="text" class="new-card"
+               placeholder="Create new item" key-press-enter="addItem(data.card)">
+    </div>
+</section>

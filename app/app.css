@@ -1,0 +1,63 @@
+/* app css stylesheet */
+
+* {
+  outline: none;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+}
+
+.page-header {
+  padding-bottom: 9px;
+  margin: 0 auto;
+  border-bottom: 1px solid #eeeeee;
+  font-size: 38.5px;
+  line-height: 40px;
+  text-align: center;
+
+}
+.container {
+  width: 400px;
+  float: left;
+  background: #fff;
+  position: relative;
+}
+
+.title {
+  padding: 16px 16px;
+  border: none;
+  background: rgba(0, 0, 0, 0.003);
+  box-shadow: inset 0 -2px 1px rgba(0,0,0,0.03);
+}
+
+.list {
+  margin: 10px 10px;
+  width: 75%;
+  box-shadow: 0 2px 4px 0;
+}
+
+.item {
+  margin: 10px;
+}
+
+.delete {
+  float: right;
+  cursor: pointer;
+}
+
+.delete:hover {
+  color: red;
+}
+
+.new-card {
+  padding: 10px;
+  border: none;
+  background: rgba(0, 0, 0, 0.003);
+  box-shadow: inset 0 -2px 1px rgba(0,0,0,0.03);
+}

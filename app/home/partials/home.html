@@ -1,0 +1,9 @@
+<section class="wrapper">
+    <header>
+        <div class="page-header">My Trello App</div>
+        <button ng-click="addCard()">Add Card</button>
+    </header>
+    <section class="container container" ng-repeat="card in cards track by $index" dnd-list="card.card">
+        <trello-card data="card"></trello-card>
+    </section>
+</section>
